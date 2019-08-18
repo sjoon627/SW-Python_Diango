@@ -1,0 +1,40 @@
+.page-header{
+  display: block;
+  padding: 1em;
+  background: lightgray;
+}
+
+.content-container {
+  font-size: 0;
+}
+
+.global-memu-link{
+  /*display: inline;*/
+  display: block;
+  margin-bottom: 5px;
+  background: white;
+}
+
+.content-section{
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em;
+  font-size: 1rem;
+  /*html 16px root em*/
+}
+
+
+.con-sec-a {
+  width: calc(30% - 2em);
+  background: yellow;
+}
+
+.con-sec-b{
+  width: calc(70% - 2em);
+  background: pink;
+}
+
+.page-footer{
+  padding: 1em;
+  background: yellowgreen;
+}

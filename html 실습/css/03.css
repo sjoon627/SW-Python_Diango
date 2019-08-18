@@ -1,0 +1,52 @@
+
+.page-header{
+  display: block;
+  padding: 1em;
+  background: lightgray;
+}
+
+.global-memu-link{
+  /*display: inline;*/
+  display: block;
+  margin-bottom: 5px;
+  background: white;
+}
+
+.content-section{
+  float: left;
+  padding: 1em;
+  font-size: 1rem;
+  /*html 16px root em*/
+}
+
+.content-container{
+  border: 10px solid red;
+}
+
+.content-container:after {
+  content: '이게뭐지?';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.con-sec-a {
+  width: calc(30% - 2em);
+  background: yellow;
+}
+
+.con-sec-b{
+  width: calc(70% - 2em);
+  background: pink;
+}
+
+.page-footer{
+  /*clear: left;*/
+  padding: 1em;
+  background: yellowgreen;
+}
+
+/*.clear{
+  clear: left;
+}*/
